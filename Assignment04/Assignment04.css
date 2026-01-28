@@ -1,0 +1,83 @@
+
+.heading {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+span {
+    display: block;
+}
+
+.heading02 {
+    background-color: rgb(220, 233, 234);
+}
+
+.form {
+    background-color: rgb(226, 233, 179);
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rememberme {
+    display: flex;
+}
+
+.button {
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #93b0d0;
+    transform: scale(1.05);
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+}
+
+.p1 {
+    background-color: rgb(241, 227, 221);
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.p2 {
+    background-color: rgb(232, 225, 207);
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.p3 {
+    background-color: rgb(205, 210, 204);
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.p4 {
+    background-color: rgb(227, 241, 241);
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(217, 208, 230);
+    width: 550px;
+    height: 550px;
+}
+
+.button2:hover {
+    background-color: #93b0d0;
+}
